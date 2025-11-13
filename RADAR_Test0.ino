@@ -1,3 +1,5 @@
+
+// The program has been duly modified and adapted by Oumarou Moussa Bola in 2022
 /*
  * This program is property of SME Dehradun. for any query related to this program, 
  * contact us at www.smedehradn.com
@@ -101,3 +103,4 @@ distance= duration*SOUND_SPEED/2;
 delayMicroseconds(5);
 return distance;
 }
+
