@@ -137,5 +137,3 @@ end
 - `servo_using_esp32.ino` — standalone servo control test  
 - `test_blynk1.ino` — IoT connectivity and dashboard test  
 
-...
-
