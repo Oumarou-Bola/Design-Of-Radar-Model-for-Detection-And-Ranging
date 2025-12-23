@@ -1,4 +1,3 @@
----
 ## 📡 Radar Model for Obstacle Detection and Ranging
 
 This project implements a radar-like detection and ranging system using a microcontroller-based embedded platform. The system combines **PWM-controlled servo actuation** with an **ultrasonic distance sensor** to perform angular scanning and obstacle detection.
