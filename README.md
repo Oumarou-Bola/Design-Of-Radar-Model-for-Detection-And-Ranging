@@ -16,7 +16,7 @@ This project demonstrates key embedded systems concepts, including PWM-based mot
 
 This project implements a low-cost radar-like detection and ranging system based on an **ESP32** microcontroller. The system combines a **servo-driven angular sweep** with **ultrasonic distance measurements** to generate a 2D representation of the surrounding environment. Optionally, measurements and system status can be transmitted wirelessly to an **IoT dashboard** for remote monitoring and control.
 
-### Architectural Layers
+### 🏗️ Architectural Layers
 
 **1. Control Layer (ESP32 Firmware)**  
 The ESP32 firmware acts as the central controller of the system. It initializes all peripherals, manages the scanning logic, synchronizes sensor sampling with servo motion, and handles optional communication with external services.
@@ -33,7 +33,7 @@ The architecture also supports **Over-The-Air (OTA) updates**, enabling wireless
 
 ---
 
-### Data Flow
+### 🔀 Data Flow
 1. The ESP32 sets the servo motor to a target angle θ  
 2. After a short stabilization delay, the ultrasonic sensor is triggered  
 3. The echo return time is measured and converted into distance  
@@ -42,7 +42,7 @@ The architecture also supports **Over-The-Air (OTA) updates**, enabling wireless
 
 ---
 
-### Key Parameters
+### 📐Key Parameters
 - **Sweep range**: angular limits of the scan (e.g., 0–180°)  
 - **Angular resolution**: step size between successive angles  
 - **Sampling delay**: time allowed for servo stabilization  
@@ -50,7 +50,7 @@ The architecture also supports **Over-The-Air (OTA) updates**, enabling wireless
 
 ---
 
-### Design Notes
+### 🧾Design Notes
 This system is a **scanning ultrasonic ranging prototype**, not a true RF radar. Measurement accuracy depends on sensor characteristics, object reflectivity, alignment, and environmental conditions. The modular architecture allows individual components (sensor, actuator, communication layer) to be tested and extended independently.
 
 
@@ -134,5 +134,12 @@ end
 - `RADAR_Test0.ino` — integrated scanning and ranging prototype  
 - `ultrasonic_sensor_test.ino` — standalone sensor validation  
 - `servo_using_esp32.ino` — standalone servo control test  
-- `test_blynk1.ino` — IoT connectivity and dashboard test  
+- `test_blynk1.ino` — IoT connectivity and dashboard test
+
+<!-- ## 📬 Contact
+
+For questions regarding the implementation, usage, or citation of this work, please contact:
+
+- **Email:** moussabolaoumarou@gmail.com -->
+ 
 
