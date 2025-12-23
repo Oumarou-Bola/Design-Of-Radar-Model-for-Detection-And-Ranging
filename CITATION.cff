@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: Design of Radar Model for Detection and Ranging
+message: If you use this software, please cite it as below.
+authors:
+  - family-names: Bola
+    given-names: Oumarou
+version: 1.0.0
+date-released: 2025-01-01
+url: https://github.com/Oumarou-Bola/Design-Of-Radar-Model-for-Detection-And-Ranging
