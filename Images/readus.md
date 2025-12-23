@@ -130,6 +130,12 @@ loop
   end
 end
 ```
+## 📁 Repository Structure
+
+- `RADAR_Test0.ino` — integrated scanning and ranging prototype  
+- `ultrasonic_sensor_test.ino` — standalone sensor validation  
+- `servo_using_esp32.ino` — standalone servo control test  
+- `test_blynk1.ino` — IoT connectivity and dashboard test  
 
 ...
 
