@@ -27,7 +27,7 @@ The ultrasonic sensor is responsible for distance estimation. At each scan angle
 **3. Actuation Layer (Servo Motor)**  
 The servo motor provides angular motion for the scanning process. The firmware sets discrete angular positions within a defined sweep range, enabling directional distance measurements.
 
-**4. Communication Layer (Optional – IoT / Blynk)**  
+**4. Communication Layer (IoT / Blynk)**  
 When enabled, the system connects to a Wi-Fi network and transmits scan data to a remote dashboard. This layer allows visualization, parameter tuning, and remote interaction.  
 The architecture also supports **Over-The-Air (OTA) updates**, enabling wireless firmware upgrades without physical access to the device.
 
