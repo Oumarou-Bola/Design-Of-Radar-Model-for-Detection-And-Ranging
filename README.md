@@ -106,13 +106,13 @@ BlynkClient --> OTAUpdate : OTA hooks
 ## 🟠 Sequence Diagram
 ```mermaid
 sequenceDiagram
-actor User as User / Mobile App (optional)
+actor User as User / Mobile App 
 participant ESP32 as ESP32 Firmware
 participant Servo as Servo Motor
 participant US as Ultrasonic Sensor
-participant Blynk as Blynk Cloud (optional)
+participant Blynk as Blynk Cloud 
 
-Note over ESP32: setup(): init pins, servo, network (optional)
+Note over ESP32: setup(): init pins, servo, network 
 opt If Blynk enabled
   ESP32->>Blynk: connect() / provision Wi-Fi
 end
